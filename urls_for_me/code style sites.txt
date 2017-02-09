@@ -1,0 +1,30 @@
+-css2scss
+http://sebastianpontow.de/css2compass/
+http://css2sass.herokuapp.com/
+http://www.css2scss.com/
+
+-html beautifier
+https://infohound.net/tidy/tidy.pl
+http://www.freeformatter.com/html-formatter.html#ad-output
+
+-css beautifier
+http://codebeautify.org/css-beautify-minify
+http://prettydiff.com/
+
+-java script beautifier
+http://jsbeautifier.org/
+http://www.danstools.com/javascript-beautify/
+http://www.mobilefish.com/services/javascriptformatter/javascriptformatter.php
+
+-php beautifier
+http://beta.phpformatter.com/
+http://www.cleancss.com/php-beautify/
+https://www.tools4noobs.com/online_tools/beautify_php/
+http://phpbeautifier.com/
+
+-scss beautifier
+http://www.calluna-software.com/Formatter/Css
+
+-beautifier for many code						
+http://www.cleancss.com/						//html, javascript, css, php, sql, ruby, python, json and so on
+http://www.online-code.net/format-html-js-css.html 			//html, javascript, css
