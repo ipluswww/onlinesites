@@ -1,0 +1,339 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+<link rel="stylesheet" href="/resource/resmgr/style/mystyle.css" />
+<link rel="stylesheet" href="/resource/resmgr/cssmenu/styles.css" />
+<script type="text/javascript" src="/resource/resmgr/js/jquery_224/jquery.min.js"></script>
+<!--<script type="text/javascript" src="http://localhost:9090/resources/jquery/2.2.4/jquery.min.js"></script>
+-->
+<header id="import_header">
+</header>
+<footer id="import_footer"></footer>
+<script type="text/javascript">
+    $('#import_header').load('/resource/resmgr/files/header.html');
+</script>
+<link rel="stylesheet" href="/resource/resmgr/style/custom.css" />
+<style>
+    .tooltip1 {
+    display: block;
+    }
+    /* Tooltip text */
+    .tooltip1 .tooltiptext {
+    display: none;
+    width: 400px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    padding: 5px 10px;
+    border-radius: 6px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    }
+    /* Show the tooltip text when you mouse over the tooltip container */
+    .tooltip1:hover .tooltiptext {
+    display: block;
+    }
+</style>
+<!------------------------------------------------------------------image section-------------------------------------------------------------------->
+<div style="padding-bottom:9px; padding-top:38px;" class="titlebox">
+<div class="container">
+<div class="row">
+<div class="col-md-12 col-xs-12 col-sm-12 text-center"><span class="title">Member Dashboard</span>
+<div style="margin-top:30px;">
+<a class="editbtn" href="javascript:show();">Refer a friend</a>
+</div>
+</div>
+</div>
+</div>
+<div style="padding-right:20px; padding-top: 12px;" class="row">
+<div class="col-md-12 col-xs-12 col-sm-12 text-right">
+<span style="color:white;">Powered By</span>
+<img alt="" style="width:42px;" src="/resource/resmgr/images/Jive_logo.PNG" />
+</div>
+</div>
+</div>
+<!-- activities changes -->
+<div id="myactvty_inc" style="display:none;"> </div>
+<!-------------------------------------------------------------------image close----------------------------------------------------------------------->
+<!-------------------------------------------------------------------robuzz feed start------------------------------------------------------------------>
+<!--<script type="text/javascript">-->
+<!--// Moved at the bottom-->
+<!--//$('#myactvty_inc').ready(function() {-->
+<!--//    console.log('div available now...');-->
+<!--//    $.getScript("/resource/resmgr/files/activity/my_network_activities.js");-->
+<!--//});-->
+<!--</script>
+-->
+<!-------------------------------------------------------------------robuzz feed close-------------------------------------------------------->
+<!-------------------------------------------------------------------content part start------------------------------------------------------->
+<div style="width:100%; background:white; padding:0px 25px;" class="container">
+<div class="row">
+<div class="col-xs-2 col-sm-1 powered left0 right0">
+<h5><a href="https://www.robuzz.com/login">
+<b>Powered by</b><br />
+<img alt="" style="width:100%; margin-left: 0 !important; margin-top: 5px;" src="/resource/resmgr/images/RoBuzz_Logo_-_RECTANGLE.png" /></a>
+</h5>
+</div>
+<div style="height: 72px; overflow:hidden;" class="col-xs-10 col-sm-11 right0">
+<div style="width:100%; height:auto;" class="robuzz-wrap clearfix">
+</div>
+</div>
+</div>
+</div>
+<!--------------------------------------------------------part close------------------------------->
+<div style="border-top: solid 1px #e0dede; padding-bottom:0px;" class="graybox">
+<div class="container">
+<div style="margin-top:0px;" class="row">
+<div class="col-md-8 col-xs-12 col-sm-12 dashleftbox">
+<h4 class="dashtoptitle">Activity in My Network</h4>
+<div class="messagebox" style="margin:15px 0px;">
+<div style="height: 1100px !important;overflow-y: scroll;overflow-x: hidden;" id="activityContentBlock">
+</div>
+</div>
+</div>
+<!------------------------------------------------------left close-------------------------------->
+<div class="col-md-4 col-xs-12 col-sm-12 wd">
+<!-----------------------------------------------------trending user-------------------------->
+<div class="row">
+<div class="col-md-8 col-xs-12 col-sm-12">
+<h4>Trending Members</h4>
+</div>
+<div class="col-md-4 col-xs-12 col-sm-12 text-right;">
+<select class="drp">
+<option>industry</option>
+</select>
+</div>
+</div>
+<div id="trending_members_widget"> </div>
+<!--<script type="text/javascript">-->
+<!--// Moved to the bottom-->
+<!--//$.getScript("/resource/resmgr/files/people/trending.js");-->
+<!--</script>
+-->
+<hr />
+<div class="row">
+<div class="col-md-8 col-xs-12 col-sm-12">
+<h4>New Members</h4>
+</div>
+<div class="col-md-4 col-xs-12 col-sm-12 text-right;"> </div>
+</div>
+<!--<div id="new_members_widget" class="slide" style="height: autopx !important;"></div>-->
+<div style="height: 130px; overflow:hidden; padding-left:5px;">
+<div class="robuzz-wrap1" style="width:100%; height:auto;" id="new_members_widget"> </div>
+</div>
+<br />
+<br />
+<hr style="background:#e0dede; height:1px; margin:0;" />
+<br />
+<br />
+<div class="row">
+<div class="col-md-6 col-xs-6 col-sm-6">
+<h4 class="dashtoptitle">My Services</h4>
+</div>
+<div class="col-md-6 col-xs-6 col-sm-6 text-right">
+<h5><a href="https://members.c-suitenetwork.com/mpage/serviceshowroom" class="btnblak">See
+More</a></h5>
+</div>
+</div>
+<div id="myServices">
+</div>
+<br />
+<br />
+<hr style="background:#e0dede; height:1px; margin:0;" />
+<br />
+<br />
+<div id="import_services">
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-----------------------------------------mid close------------------------------------>
+<div class="searchbox">
+<div class="container">
+<div class="row">
+<div class="col-md-3 col-xs-12 col-sm-12"> </div>
+<div style="text-align:center;" class="col-md-4 col-xs-12 col-sm-12">
+<div id="cssmenu">
+<ul>
+    <li class="has-sub text-center">
+    <a href="#"><input placeholder="I Search the Network" class="link" type="text" /></a>
+    <ul class="myul1">
+        <li>
+        <div class="arrow-up" style="margin-left: 105px !important;"> </div>
+        <div class="msg1 msgpreview" style="margin-left: 40px !important;">
+        <a href="/mpage/MemberDirectory" class="menua"><span class="glyphicon glyphicon-user"></span> Member Search</a>
+        <a href="/mpage/Search" class="menua"><span class="glyphicon glyphicon-list-alt"></span> Content Search</a>
+        </div>
+        </li>
+    </ul>
+    </li>
+</ul>
+</div>
+<!--<h5>Search the Network by typing a topic or member name in the box</h5>-->
+</div>
+<div class="col-md-3 col-xs-12 col-sm-12"> </div>
+</div>
+</div>
+</div>
+<!-----------------------------------------------------------------------3rd part close-------------------------------------------------------------->
+<div style="padding-top: 52px;" class="graybox">
+<div class="container">
+<div class="row">
+<!-------------------------------------------------------------------part1------------------------------------------------------>
+<div class="col-md-8 col-xs-12 col-sm-12">
+<div class="row">
+<div class="col-md-6 col-xs-12 col-sm-12">
+<h4 class="eventtitle">Trending Content</h4>
+</div>
+<div class="col-md-6 col-xs-12 col-sm-12 text-right;">
+</div>
+</div>
+<br />
+<br />
+<!-----------------------------------row close--------------------------------->
+<!---------------------------- Trending Content ----------------------------------->
+<div class="row" id="trendingContentBlock"> </div>
+</div>
+<!-------------------------------------------------------------------part2------------------------------------------------------>
+<div style="padding-left: 50px;" class="col-md-4 col-xs-12 col-sm-12">
+<h4 style="font-size: 20px; margin-bottom: 37px;" class="eventtitle">
+Upcoming Events
+</h4>
+<div id="events_widget"> </div>
+<script type="text/javascript">
+                    $.getScript("/resource/resmgr/files/event/upcoming.js");
+                </script>
+<br />
+<hr style="background:#ccc6c6 none repeat scroll 0% 0%; height:1px;" />
+<div class="row">
+<div class="col-md-5 col-xs-4 col-sm-4">
+<h4 class="dashtoptitle">My Network</h4>
+</div>
+<div class="col-md-7 col-xs-8 col-sm-8 text-right">
+<h5><a class="btnblak" href="/mpage/MyNetwork">See All</a></h5>
+</div>
+</div>
+<div id="mynetwork">
+<div class="row">
+<div id="import_mynetwork">
+</div>
+</div>
+</div>
+<!-------------------------------------------------------------last row------------------------------------------------------- -->
+</div>
+</div>
+</div>
+</div>
+<script>
+    function show() {
+        //Unhide referall form
+        $('#popup-after-send').addClass('hidden');
+        $('#popup-before-send').removeClass('hidden');
+
+        document.getElementById("mailing").reset();
+        $('#submit-signup').val("Send");
+        
+        $('#pop4').show(500)
+    }
+    function hide() {
+        $('#pop4').hide(500)
+    }
+</script>
+<style>
+    .refbox {
+    margin: 5px 10px 5px 0px;
+    }
+</style>
+<div id="pop4" class="popupcontainer">
+<div class="row">
+<div class="col-md-4 col-xs-12 col-sm-12"> </div>
+<div id="popup-after-send" class="col-md-4 col-xs-12 col-sm-12 popbox1 hidden"> </div>
+<div id="popup-before-send" class="col-md-4 col-xs-12 col-sm-12 popbox1">
+<form id="mailing" role="form" method="post">
+    <div>
+    <h5>Referral Contact Information:</h5>
+    <input placeholder="Referral Name" id="referral_name" name="referral_name" class="poptext1 refbox" type="text" />
+    <input placeholder="Company Name" id="referral_company" name="referral_company" class="poptext1 refbox" type="text" />
+    <input placeholder="Title" id="referral_title" name="referral_title" class="poptext1 refbox" type="text" />
+    <input placeholder="Email Address" id="referral_email" name="referral_email" class="poptext1 refbox" type="text" />
+    <input placeholder="Phone (Optional)" id="referal_contact_no" name="referal_contact_no" class="poptext1 refbox" type="text" />
+    </div>
+    <div>
+    <h5>Member Information:</h5>
+    <h5>First Name:</h5>
+    <input id="first_name" name="first_name" class="poptext1" type="text" />
+    </div>
+    <div>
+    <h5>Last Name:</h5>
+    <input id="last_name" name="last_name" class="poptext1" type="text" />
+    </div>
+    <div>
+    <h5>Company Name:</h5>
+    <input id="company_name" name="company_name" class="poptext1" type="text" />
+    </div>
+    <div>
+    <h4 id="thank_you"></h4>
+    <h4 class="tooltip1">
+    <input id="referral_certified" name="referral_certified" type="checkbox" /> I certify the person I am referring is <span style="color:#1fb0f4;">qualified</span>.
+    <span class="tooltiptext">C-Suite Network Memberships are available to leaders of VP and above from companies with annual revenues of $5 million or more.</span>
+    </h4>
+    </div>
+    <input name="member_id" id="member_id" type="hidden" />
+    <br />
+    <div>
+    <input id="submit-signup" name="submit" class="editbtn" value="Send" type="submit" />
+    <a class="cancelbtn" href="javascript:hide();">Cancel</a>
+    </div>
+</form>
+</div>
+<div class="col-md-4 col-xs-12 col-sm-12"> </div>
+</div>
+<!------------------------------------------------------popup close---------------------------------------->
+<!---------------------------- Trending Content ------------------------------------>
+</div>
+<script type="text/javascript" src="/resource/resmgr/js/jive_services.js"></script>
+<script type="text/javascript" src="/resource/resmgr/js/ym_services.js"></script>
+<script type="text/javascript">
+
+    (function () {
+        var scripts = ['/resources/mustache/mustache.min.js', '/resources/mustache/jquery.mustache.js'];
+        JiveService.Util.includeScripts(scripts);
+    }());
+
+    var ymScripts = [
+            '/files/activity/my_network_activities.js','/files/people/trending.js', '/files/people/new_members.js','/files/people/my_network.js',
+            '/files/content/trending.js', '/files/people/my_network.js', '/files/people/my_services.js', '/files/event/upcoming.js',
+            // Refer a friend
+            '/files/people/refer-a-friend.js',
+            //Robuzz Feed
+            '/files/content/robuzzfeed.js'
+    ];
+    JiveService.loadYMScripts(ymScripts);
+
+
+    function followUser(jiveUserID) {
+        console.log('Follow - ', jiveUserID);
+        JiveService.POST.followWithID(localStorage.getItem("userName"), undefined, jiveUserID, function (r) {
+            if (r.success) {
+                var fSpan = $('#fa_' + jiveUserID);
+                fSpan.removeClass('inactive');
+                fSpan.addClass('active');
+                fSpan.attr('title', 'Following');
+            }
+        });
+    }
+
+    var counter = 0;
+    var newMemberWidgetScroll = $('.robuzz-wrap1');
+    setInterval(function() {
+        var memberRows = Math.ceil(newMemberCounter/3);
+        if(counter > memberRows) {
+            newMemberWidgetScroll.css('margin-top', '130px');
+            counter = 0;
+        }
+        newMemberWidgetScroll.animate({'margin-top' : '-=130px'}, 500);
+        counter+=1;
+    }, 10000);
+
+
+</script>

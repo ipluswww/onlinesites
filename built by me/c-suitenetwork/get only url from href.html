@@ -1,0 +1,18 @@
+<script>
+summary = 'Salespeople often struggle to become great sales managers this is a reason few people talk about.&#160; <a class="jive-link-external-small" href="a href=\'http://www.omghub.com/salesdevelopmentblog/another-powerful-reason-why-salespeople-struggle-to-become-great-sales-managers\'>http://www.omghub.com/salesdevelopmentblog/another-powerful-reason-why-salespeople-struggle-to-become-great-sales-managers</a>" rel="nofollow" target="_blank">http://www.omghub.com/salesdevelopmentblog/another-powerful-reason-why-salespeople-struggle-to-become-great-sales-managers</a>';
+var pos1;
+while((pos1 = summary.search('href="<a href=\'')) >= 0)
+{
+	pos1 += 6;
+	var res1 = summary.slice(pos1);
+	var sustr1 = summary.slice(0, pos1);
+	var pos2 = res1.search('\'>');
+	pos2 += 2;
+	var res2 = res1.slice(pos2);
+	var pos3 = res2.search('</a>"');
+	var sustr2 = res2.slice(0, pos3);
+	var sustr3 = res2.slice(pos3+4);
+	summary = sustr1 + sustr2 + sustr3;
+}
+console.log(pos1);
+</script>
