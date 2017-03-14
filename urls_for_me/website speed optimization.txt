@@ -1,0 +1,16 @@
+KeyCDN Speed Test https://tools.keycdn.com/speed
+Google PageSpeed Insights https://tools.keycdn.com/speed
+Pingdom https://tools.pingdom.com/
+GTmetrix https://gtmetrix.com
+WebPageTest http://www.webpagetest.org/
+DareBoost https://dareboost.com
+Very Pagespeed Optimization   https://varvy.com/pagespeed/
+UpTrends https://www.uptrends.com/tools/website-speed-test
+dotcom-monitor  https://www.dotcom-tools.com/website-speed-test.aspx
+PageScoring http://www.pagescoring.com/website-speed-test/
+Yellow Lab Tools http://yellowlab.tools/ 
+Google Chrome DevTools https://developer.chrome.com/devtools
+Sucuri Load Time Tester https://performance.sucuri.net/
+Pagelocity http://pagelocity.com/
+YSlow http://yslow.org
+https://www.dirtymarkup.com/
