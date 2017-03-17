@@ -1,3 +1,8 @@
+-css http://www.styleneat.com/index.php
+-html http://www.cleancss.com/html-beautify/
+-javascript http://codebeautify.org/jsviewer
+
+
 -css2scss
 http://sebastianpontow.de/css2compass/
 http://css2sass.herokuapp.com/
