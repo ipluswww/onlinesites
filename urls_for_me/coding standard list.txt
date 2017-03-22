@@ -1,0 +1,3 @@
+https://github.com/airbnb/javascript
+https://standardjs.com/rules.html#javascript-standard-style
+https://contribute.jquery.org/style-guide/js/#good-examples
