@@ -1,5 +1,6 @@
+
 KeyCDN Speed Test https://tools.keycdn.com/speed
-Google PageSpeed Insights https://tools.keycdn.com/speed
+Google PageSpeed Insights https://developers.google.com/speed/pagespeed/insights/
 Pingdom https://tools.pingdom.com/
 GTmetrix https://gtmetrix.com
 WebPageTest http://www.webpagetest.org/
