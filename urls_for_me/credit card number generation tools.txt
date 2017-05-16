@@ -1,0 +1,18 @@
+example credit card: 
+https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm
+
+In magento, use card number for test.
+http://credit-card-generator.2-ee.com/
+
+// Generate Credit numbers
+
+http://credit-card-generator.2-ee.com/
+http://www.getcreditcardnumbers.com/
+https://www.getnewidentity.com/amex-credit-card.php
+
+// Job Site
+
+https://www.peopleperhour.com
+
+https://www.fiverr.com/
+
