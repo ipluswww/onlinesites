@@ -1,2 +1,5 @@
 local ip:
 https://www.whatismybrowser.com/detect/what-is-my-local-ip-address
+
+real position:
+http://www.ipinfodb.com/my_ip_location.php
