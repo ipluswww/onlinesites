@@ -33,3 +33,8 @@ http://www.calluna-software.com/Formatter/Css
 -beautifier for many code						
 http://www.cleancss.com/						//html, javascript, css, php, sql, ruby, python, json and so on
 http://www.online-code.net/format-html-js-css.html 			//html, javascript, css
+
+
+guide:
+Rspec:
+http://www.betterspecs.org/

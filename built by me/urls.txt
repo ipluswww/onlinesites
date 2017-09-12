@@ -179,6 +179,8 @@ http://www.mytheresa.com/fr-fr/
 
 Ruby On Rails
 https://www.vinted.fr/
+https://Etsy.com    // Market place
+https://fiverr.com   // Freelance Site, Market place
 
 
 Ecommerce
