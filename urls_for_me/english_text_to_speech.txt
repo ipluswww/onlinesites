@@ -1,5 +1,5 @@
-http://www.naturalreaders.com/onlinetts.php  20+person 
 https://text-to-speech-demo.mybluemix.net/
+http://www.naturalreaders.com/onlinetts.php  20+person 
 http://www.fromtexttospeech.com/  - 5 person create audio file
 http://www.text2speech.org/ create audio file
 http://ttsreader.com/     - one person 
