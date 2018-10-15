@@ -1,0 +1,6 @@
+https://websiteforstudents.com/get-the-latest-vmware-workstation-14-pro-on-ubuntu-16-04-17-04-17-10/
+
+
+sudo chmod +x ~/Downloads/VMware-Workstation-Full-15.0.0-10134415.x86_64.bundle
+sudo apt-get -y install gcc make linux-headers-$(uname -r) dkms
+sudo ~/Downloads/VMware-Workstation-Full-15.0.0-10134415.x86_64.bundle
