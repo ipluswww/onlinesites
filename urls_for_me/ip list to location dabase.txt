@@ -1,0 +1,8 @@
+https://db-ip.com/
+https://www.ipinfodb.com/free-database
+https://lite.ip2location.com/file-download
+
+
+https://dev.maxmind.com/geoip/legacy/geolite/
+https://dev.maxmind.com/geoip/geoip2/geolite2/
+

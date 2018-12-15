@@ -3,3 +3,11 @@ https://www.whatismybrowser.com/detect/what-is-my-local-ip-address
 
 real position:
 http://www.ipinfodb.com/my_ip_location.php
+
+https://tools.keycdn.com/geo
+https://www.melissa.com/lookups/iplocation.asp
+https://iplocation.com/
+https://www.textmagic.com/free-tools/ip-address-geo-location-tool
+
+
+
