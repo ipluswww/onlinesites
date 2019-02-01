@@ -3,11 +3,17 @@ https://www.whatismybrowser.com/detect/what-is-my-local-ip-address
 
 real position:
 http://www.ipinfodb.com/my_ip_location.php
+https://www.ipaddress.my/
+https://ip2location.com
+https://www.whatismyip.com/ip-address-lookup/
 
-https://tools.keycdn.com/geo
+iplocation.net
 https://www.melissa.com/lookups/iplocation.asp
+https://tools.keycdn.com/geo
+https://www.ip-adress.com
 https://iplocation.com/
 https://www.textmagic.com/free-tools/ip-address-geo-location-tool
-
-
-
+https://ipdata.co/
+https://mylocation.org
+https://myip.ms/
+https://myip.ms/view/ip_owners/46386/Ecatel_Ltd.html
